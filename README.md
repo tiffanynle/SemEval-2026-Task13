@@ -33,6 +33,9 @@ Given a code snippet, predict whether it is:
 **Dataset Size**: 
 - Train - 500K samples (238K Human-Written | 262K Machine-Generated)
 - Validation - 100K samples
+
+**Target Metric** - Macro F1-score (we will build the leaderboard based on it), but you are free to use whatever works best for your approach during training.
+
 ---
 
 ###  Subtask B: Multi-Class Authorship Detection
@@ -52,6 +55,9 @@ Given a code snippet, predict its author:
 **Dataset Size**: 
 - Train - 500K samples (442K Human |4K DeepSeek-AI | 8K Qwen| 3K 01-ai |2 K BigCode |2K Gemma | 5K Phi | 8K Meta-LLaMA |8K IBM-Granite| 4K  Mistral   |10K OpenAI)
 - Validation - 100K samples
+
+**Target Metric** - Macro F1-score (we will build the leaderboard based on it), but you are free to use whatever works best for your approach during training.
+
 ---
 
 ### Subtask C: Hybrid Code Detection
@@ -67,6 +73,9 @@ Classify each code snippet as one of:
 **Dataset Size**: 
 - Train - 900K samples (485K Human-written | 210K Machine-generated |  85K Hybrid | 118K Adversarial)
 - Validation - 200K samples
+
+**Target Metric** - Macro F1-score (we will build the leaderboard based on it), but you are free to use whatever works best for your approach during training.
+
 ---
 
 ## 📁 Data Format
